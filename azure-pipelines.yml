@@ -71,7 +71,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      name: 'nieuwetailspin'
+      name: 'MyAgentPool'
     environment: dev
     variables:
     - group: Release
